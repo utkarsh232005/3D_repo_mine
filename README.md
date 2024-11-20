@@ -15,7 +15,6 @@
 
 ## Demo
 
-You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/](https://shivam-sharma-myportfolio.vercel.app/).
 
 ## Features
 
@@ -79,6 +78,3 @@ The project structure is organized as follows:
 -   `pages`: Individual pages of the website.
 -   `utils`: Utility functions or helper scripts.
 
-## Author
-
--   [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1)
