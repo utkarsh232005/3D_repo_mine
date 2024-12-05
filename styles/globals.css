@@ -324,7 +324,7 @@ svg {
 
 @keyframes loadtwo {
   50% {
-    transform: rotate(-80deg);
+    transform: rotate(360deg);
   }
 }
 
