@@ -277,8 +277,8 @@ const projects = [
 
 const graphicsProjects = [
   {
-    name: "Brand Identity Design",
-    description: "Created comprehensive brand identity including logo design, color palette, typography, and brand guidelines for a tech startup.",
+    name: "Menu Card Design",
+    description: "Created comprehensive brand identity including logo design, color palette, typography, and brand guidelines for a Cloud Kitchen startup.",
     tags: [
       {
         name: "Adobe Illustrator",
@@ -293,7 +293,7 @@ const graphicsProjects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/assets/projects/branding.png",
+    image: "/assets/projects/branding.jpg",
   },
   {
     name: "Social Media Graphics",
