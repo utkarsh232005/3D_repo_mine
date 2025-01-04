@@ -2,9 +2,8 @@ import React, { Suspense, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 import * as THREE from "three";
-
-import CanvasLoader from "../Loader";
 import EarthModel from "./models/EarthModel";
+// import CanvasLoader from "./CanvasLoader";
 
 function Earth({ isMobile }) {
   const { nodes, materials } = useGLTF("models/planet/scene.gltf");
@@ -29,7 +28,7 @@ function Earth({ isMobile }) {
           makeDefault
         />
       )}
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense fallback={null}>
         <EarthModel
           materials={materials}
           nodes={nodes}

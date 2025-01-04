@@ -4,13 +4,13 @@ import {
   RandomizedLight,
   useAnimations,
   useFBX,
-  useGLTF,
+  useGLTF, // Add this import
 } from "@react-three/drei";
 import { Suspense, useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { Canvas } from "@react-three/fiber";
 
-import CanvasLoader from "../Loader";
+// import CanvasLoader from "../Loader"; // Add this import
 import PlayerModel from "./models/PlayerModel";
 
 function Player({ isMobile }) {
@@ -69,16 +69,14 @@ function Player({ isMobile }) {
           autoRotate={false}
         />
       )}
-      <Suspense fallback={<CanvasLoader />}>
-        <PlayerModel
-          nodes={nodes}
-          materials={materials}
-          rotation={[-1.6, 0, 0]}
-          position={isMobile ? [0, -2.7, 0] : [0, -2.1, 0]}
-          scale={isMobile ? 3 : 2}
-          group={group}
-        />
-      </Suspense>
+      <PlayerModel
+        nodes={nodes}
+        materials={materials}
+        rotation={[-1.6, 0, 0]}
+        position={isMobile ? [0, -2.7, 0] : [0, -2.1, 0]}
+        scale={isMobile ? 3 : 2}
+        group={group}
+      />
     </>
   );
 }

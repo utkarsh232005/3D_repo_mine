@@ -7,14 +7,14 @@ function ComputerModel({ nodes, materials, scale, position, rotation }) {
 			dispose={null}
 		>
 			<group scale={0.01}>
-				<mesh
-					geometry={nodes["Object_782_OnTheFly-bg_0"].geometry}
+				{/* <mesh
+                    geometry={nodes.Object_782_OnTheFly-bg_0.geometry}
 					material={materials["Material.074_40"]}
 					position={[101.601, 40.622, 244.007]}
 					rotation={[-Math.PI / 2, 0.078, Math.PI / 2]}
 					scale={21.893}
-				/>
-				<mesh
+				/> */}
+				{/* <mesh
 					geometry={nodes.Object_788_Material057_0.geometry}
 					material={materials["Material.074_33"]}
 					position={[159.018, 47.32, 359.936]}
@@ -4846,8 +4846,8 @@ function ComputerModel({ nodes, materials, scale, position, rotation }) {
 					position={[141.108, 50.46, 586.29]}
 					rotation={[-Math.PI / 2, 0, 0]}
 					scale={29.266}
-				/>
-			</group>
+				/>*/}
+			</group> 
 		</group>
 	);
 }

@@ -35,7 +35,7 @@ function About() {
         </div>
         <div className="w-fit break-words">
           <Link
-            href="mailto:utkarshpatrikar@gmail.com"
+            href="utkarshpatrikar@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"

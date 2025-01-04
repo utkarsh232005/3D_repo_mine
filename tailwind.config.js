@@ -11,8 +11,8 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: "#804dee",
-				secondary: "#4b42a7",
-				tertiary: "#9b4dee",
+				secondary: "#aaa6c3",
+				tertiary: "#151030",
 				quaternary: "#4d9aee",
 				five: "#cbb8f5",
 
@@ -22,7 +22,9 @@ module.exports = {
 				// bgPrimaryDark: "#181826",
 				// bgSecondaryDark: "#212134",
 				ctnPrimaryDark: "#e5e6e9",
-				ctnSecondaryDark: "#7e8c9f"
+				ctnSecondaryDark: "#7e8c9f",
+				'black-100': '#100d25',
+				'black-200': '#090325'
 			},
 			boxShadow: {
 				card: "0px 35px 120px -15px #211e35"

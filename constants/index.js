@@ -156,29 +156,26 @@ const experiences = [
 ];
 
 const testimonials = [
- {
+  {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Utkarsh is an exceptional UI/UX designer. His attention to detail and creative solutions made our project stand out.",
+    name: "Rahul Kumar",
+    designation: "Project Lead",
+    company: "TechStart",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Working with Utkarsh was a great experience. His frontend development skills helped us create a beautiful and functional website.",
+    name: "Priya Singh",
+    designation: "CEO",
+    company: "WebCraft",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Utkarsh's problem-solving abilities and dedication to quality made him a valuable asset to our team.",
+    name: "Amit Patel",
+    designation: "Tech Director",
+    company: "InnovateTech",
   },
 ];
 
@@ -278,6 +275,47 @@ const projects = [
   // }
 ];
 
+const graphicsProjects = [
+  {
+    name: "Brand Identity Design",
+    description: "Created comprehensive brand identity including logo design, color palette, typography, and brand guidelines for a tech startup.",
+    tags: [
+      {
+        name: "Adobe Illustrator",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Branding",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/assets/projects/branding.png",
+  },
+  {
+    name: "Social Media Graphics",
+    description: "Designed engaging social media graphics and templates for various platforms, increasing client engagement by 40%.",
+    tags: [
+      {
+        name: "Photoshop",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Social Media",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Marketing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/assets/projects/social-media.png",
+  },
+];
+
 const socials = [
   {
     id: "github",
@@ -323,4 +361,5 @@ export {
   projects,
   socials,
   heroTexts,
+  graphicsProjects,
 };

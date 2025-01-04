@@ -26,12 +26,12 @@
   }
 
   .sectionHeadText {
-    @apply dark:text-ctnPrimaryDark text-ctnPrimaryLight font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px];
+    @apply text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px];
     animation: lights 5s 750ms linear infinite;
   }
 
   .sectionSubText {
-    @apply sm:text-[18px] text-[14px] dark:text-ctnSecondaryDark text-ctnSecondaryLight uppercase tracking-wider;
+    @apply sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider;
   }
 
   .wave {
@@ -54,6 +54,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 * {
@@ -382,8 +383,7 @@ svg {
       2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
       1.75em 1.75em 0 0em rgba(255, 255, 255, 0.5),
       0em 2.5em 0 0em rgba(255, 255, 255, 0.7), -1.8em 1.8em 0 0em #ffffff,
-      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
-      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2);
   }
   75% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),

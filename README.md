@@ -5,13 +5,14 @@
 
 ## Table of Contents
 
-1.  [Demo](#demo)
-2.  [Features](#features)
-3.  [Technologies Used](#technologies-used)
-4.  [Packages Used](#packages-used)
-5.  [Getting started](#getting-started)
-6.  [Project Structure](#project-structure)
-7.  [Author](#author)
+- [3D Portfolio](#3d-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Packages Used](#packages-used)
+  - [Getting started](#getting-started)
+  - [Project Structure](#project-structure)
 
 ## Demo
 
@@ -45,7 +46,7 @@
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/Shivam-Sharma-1/3D-Portfolio
+git clone https://github.com/utkarsh232005/3D_repo_mine.git
 ```
 
 2. Change to the project directory:

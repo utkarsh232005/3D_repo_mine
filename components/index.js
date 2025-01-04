@@ -7,15 +7,19 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
+import GraphicsWorks from "./GraphicsWorks";
+import SkeletonLoader from "./SkeletonLoader";
 
 export {
-	Hero,
-	Navbar,
-	About,
-	Tech,
-	Experience,
-	Works,
-	Feedbacks,
-	Contact,
-	StarsCanvas
+  Hero,
+  Navbar,
+  About,
+  Tech,
+  Experience,
+  Works,
+  Feedbacks,
+  Contact,
+  StarsCanvas,
+  GraphicsWorks,
+  SkeletonLoader
 };

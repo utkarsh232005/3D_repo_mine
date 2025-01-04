@@ -3,7 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as THREE from "three";
 
-import CanvasLoader from "../Loader";
+// import CanvasLoader from "../Loader";
 
 function Stars(props) {
 	const ref = useRef();
@@ -49,7 +49,7 @@ function StarsCanvas() {
 					alpha: false
 				}}
 			>
-				<Suspense fallback={<CanvasLoader />}>
+				<Suspense fallback={null}>
 					<Stars />
 				</Suspense>
 				<Preload all />
