@@ -296,8 +296,8 @@ const graphicsProjects = [
     image: "/assets/projects/branding.jpg",
   },
   {
-    name: "Social Media Graphics",
-    description: "Designed engaging social media graphics and templates for various platforms, increasing client engagement by 40%.",
+    name: "Invitation Card Design",
+    description: "Designed engaging Invitation design For College Fairwell Party GHRIET NAGPUR.",
     tags: [
       {
         name: "Photoshop",
@@ -308,11 +308,11 @@ const graphicsProjects = [
         color: "green-text-gradient",
       },
       {
-        name: "Marketing",
+        name: "Royal Design",
         color: "pink-text-gradient",
       },
     ],
-    image: "/assets/projects/social-media.png",
+    image: "/assets/projects/invitation.jpg",
   },
 ];
 
