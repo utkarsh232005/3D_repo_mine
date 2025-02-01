@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import DOMPurify from "dompurify";
@@ -16,6 +16,10 @@ function Contact() {
     email: "",
     message: "",
   });
+
+  useEffect(() => {
+    emailjs.init("ecwWXb6CqTnmtiMYn"); // Initialize with your public key
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -51,8 +55,7 @@ function Contact() {
           from_email: DOMPurify.sanitize(form.email),
           message: DOMPurify.sanitize(form.message),
           reply_to: DOMPurify.sanitize(form.email)
-        },
-        "ecwWXb6CqTnmtiMYn" // Public Key
+        }
       );
 
       setSuccess("Thank you for your message. I will get back to you soon.");
