@@ -44,15 +44,15 @@ function Contact() {
 
     try {
       const result = await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        "service_0flaip6", // Service ID
+        "template_xiejn7n", // Template ID
         {
           from_name: DOMPurify.sanitize(form.name),
           from_email: DOMPurify.sanitize(form.email),
           message: DOMPurify.sanitize(form.message),
-          reply_to: DOMPurify.sanitize(form.email) // Add this line
+          reply_to: DOMPurify.sanitize(form.email)
         },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        "ecwWXb6CqTnmtiMYn" // Public Key
       );
 
       setSuccess("Thank you for your message. I will get back to you soon.");
