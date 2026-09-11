@@ -40,6 +40,7 @@ function Tech() {
             href={tech.link}
             key={tech.name}
             target="_blank"
+            rel="noopener noreferrer"
             className="flex flex-row"
           >
             <div className="w-[40px] h-[40px] relative flex flex-row items-center group cursor-pointer">
