@@ -37,7 +37,7 @@ function About() {
           <Link
             href="utkarshpatrikar@gmail.com"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
@@ -49,6 +49,7 @@ function About() {
             <Link
               href={social.link}
               target="_blank"
+              rel="noopener noreferrer"
               key={social.id}
               className="w-8 h-8 hover:-translate-y-2 ease-in transition-all duration-100 cursor-pointer"
             >
@@ -59,7 +60,7 @@ function About() {
         <Link
           href="document/Utkarsh.pdf"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="w-fit"
         >
           <div className="btn w-fit bg-tertiary text-white px-7 py-2 rounded-md overflow-hidden relative cursor-pointer">
